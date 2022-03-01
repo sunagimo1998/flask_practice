@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    volumes:
+      - ./flaskbook:/flaskbook
+    stdin_open: true
+    # tty: true
