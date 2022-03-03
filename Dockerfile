@@ -3,8 +3,8 @@ SHELL ["/bin/bash", "-oeux", "pipefail", "-c"]
 
 ENV PYTHONUNBUFFERED=1
 
+RUN python3 -m venv venv
+RUN . ./venv/bin/activate
+
 WORKDIR /flaskbook
-RUN touch test.txt
-# RUN python3 -m venv venv
-# RUN . ./venv/bin/activate
-# RUN pip install flask
+RUN pip install flask

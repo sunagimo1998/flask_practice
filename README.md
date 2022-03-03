@@ -4,3 +4,7 @@ docker images -aq | xargs docker rmi
 docker compose build --no-cache
 docker compose up -d
 docker compose exec app bash
+
+export FLASK_APP=app.py
+export FLASK_ENV=development
+flask run --host 0.0.0.0 --port 5000
