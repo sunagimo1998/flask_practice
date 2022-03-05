@@ -8,3 +8,4 @@ RUN . ./venv/bin/activate
 
 WORKDIR /flaskbook
 RUN pip install flask
+RUN pip install flake8 black isort mypy
