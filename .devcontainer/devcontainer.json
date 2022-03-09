@@ -1,0 +1,8 @@
+{
+    "name": "dev-container", // コンテナ表示名
+    "dockerComposeFile": [
+        "../docker-compose.yml" // Docker Composeのファイルパス
+    ],
+    "service": "app", // Docker Composeの接続サービス名
+    "workspaceFolder": "/flaskbook", // Workspaceのフォルダを指定
+}

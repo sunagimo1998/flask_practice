@@ -8,3 +8,11 @@ RUN . ./venv/bin/activate
 
 WORKDIR /flaskbook
 RUN pip install flask
+RUN pip install flake8 black isort mypy
+RUN pip install python-dotenv
+# P62
+RUN pip install email-validator
+# P67
+RUN pip install flask-debugtoolbar
+# P68
+RUN pip install flask-mail
