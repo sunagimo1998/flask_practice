@@ -15,3 +15,6 @@ flask db init
 flask db migrate
 flask db upgrade
 flask db downgrade
+
+誤字脱字
+p121 users→user
