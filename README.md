@@ -10,3 +10,11 @@ export FLASK_ENV=development
 flask run --host 0.0.0.0 --port 5000
 
 curl -L http://www.gitignore.io/api/python,flask,vscode > .gitignore
+
+flask db init
+flask db migrate
+flask db upgrade
+flask db downgrade
+
+誤字脱字
+p121 users→user

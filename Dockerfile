@@ -16,3 +16,7 @@ RUN pip install email-validator
 RUN pip install flask-debugtoolbar
 # P68
 RUN pip install flask-mail
+# P96
+RUN pip install flask-sqlalchemy
+RUN pip install flask-migrate
+RUN pip install flask-wtf
