@@ -21,3 +21,4 @@ RUN pip install flask-sqlalchemy
 RUN pip install flask-migrate
 RUN pip install flask-wtf
 RUN pip install flask-login
+RUN pip install torch torchvision opencv-python
