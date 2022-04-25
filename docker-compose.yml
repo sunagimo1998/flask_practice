@@ -1,6 +1,8 @@
 version: "3.9"
 services:
   app:
+    # https://qiita.com/prkrsign890/items/10ecb57e0387a673b3a2
+    #platform: linux/amd64
     build: .
     volumes:
       - ./flaskbook:/flaskbook
